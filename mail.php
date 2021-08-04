@@ -93,10 +93,10 @@ if ($_POST) {
     }
 
         $emailgo = new TEmail; 
-        $emailgo->from_email = 'info@xn--71-glch3atogj.xn--p1ai'; // Почта отправителя 
+        $emailgo->from_email = ''; // Почта отправителя 
         $emailgo->from_name  = 'Заказ с сайта'; // Имя отправителя 
-        $emailgo->to_email   = "anton.imagemark@gmail.com";  // Куда будет отправлено письмо
-        $emailgo->to_name    = "Лесторг"; // Имя получателя
+        $emailgo->to_email   = "";  // Куда будет отправлено письмо
+        $emailgo->to_name    = ""; // Имя получателя
         $emailgo->subject    = 'Заказ с сайта'; // Тема
     
         $emailgo->body       = "<span style='font-size:14px;margin-bottom:10px;'><b>Имя</b>: $name</span><br>
